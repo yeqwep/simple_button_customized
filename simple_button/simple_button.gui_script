@@ -8,7 +8,7 @@ local function create_toggle(node, flag, callback)
 	return simple_button.create_toggle(node, flag, callback)
 end
 -- ------------------------------------------------------------------------------------------
--- ボタン操作
+-- init and on_input
 -- ------------------------------------------------------------------------------------------
 function init(self)
 	msg.post(".", "acquire_input_focus")
